@@ -1,0 +1,21 @@
+#myPhoto {
+    width: 500px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#underPhoto {
+    background: #9effdf;
+}
+
+ul h3 {
+    background: #cfffff;
+}
+
+ul li ul li{
+    font-size: 22px;
+    padding-left: 30px;
+}
