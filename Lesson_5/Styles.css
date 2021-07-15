@@ -1,11 +1,13 @@
+
+
 body {
     margin: 0;
     width: 100%;
     height: auto;
 }
 
-h1, h2. h3. h4. h5. h6, a. p {
-    font-family: Roboto serif;
+* {
+    font-family: Roboto, serif;
 }
 
 .mg-a {
@@ -283,7 +285,7 @@ h1, h2. h3. h4. h5. h6, a. p {
 
 .menu .right_part .menu_item.button_1 {
     border: 1px solid #000;
-    border-radius: 20%;
+    border-radius: 100px;
     padding: 15px;
     font-weight: 700;
     transition: 300ms;
@@ -298,7 +300,7 @@ h1, h2. h3. h4. h5. h6, a. p {
 
 .menu .right_part .menu_item.button_2 {
     border: 1px solid #000;
-    border-radius: 20%;
+    border-radius: 100px;
     padding: 15px;
     background: #000;
     color: #fff;
@@ -310,6 +312,10 @@ h1, h2. h3. h4. h5. h6, a. p {
     background: silver;
     color: #000;
     border: none;
+}
+
+.right_menu_mob {
+    display: none;
 }
 
 .big_header {
@@ -330,7 +336,7 @@ h1, h2. h3. h4. h5. h6, a. p {
     font-weight: 700;
     font-size: 22px;
     border: 1px solid #000;
-    border-radius: 20%;
+    border-radius: 100px;
     background: #000;
     color: #fff;
     box-sizing: border-box;
@@ -373,7 +379,7 @@ h1, h2. h3. h4. h5. h6, a. p {
 .sixth_block .left_part .button {
     border: 1px solid #000;
     background: #ffc273;
-    border-radius: 20%;
+    border-radius: 100px;
 }
 
 .seventh_block_father .son {
@@ -409,6 +415,18 @@ h1, h2. h3. h4. h5. h6, a. p {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+#Mobile_1 {
+    display: none;
+}
+
+#Mobile_2 {
+    display: none;
+}
+
+#Mobile_3 {
+    display: none;
 }
 
 .bottom_daddy .son .second_bottom .block_item p {
